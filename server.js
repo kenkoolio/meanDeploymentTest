@@ -17,6 +17,6 @@ require('./server/config/routes.js')(app);
 //   res.send('<p>Welcome</p>');
 // })
 
-app.listen(5000, function(){
-  console.log("Listening on port 5000");
+app.listen(8000, function(){
+  console.log("Listening on port 8000");
 })
